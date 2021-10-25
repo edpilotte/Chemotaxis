@@ -30,23 +30,26 @@ Ghost[] ghostGang = new Ghost[6];
 
 void setup() {
   size(704,702);
+  /*
   PImage img;
   img = loadImage("pacmanmaze4.png");
   background(img);
-  //background(0);
+  */
+  background(0);
   for(int i = 0; i < ghostGang.length; i++) {
     ghostGang[i] = new Ghost();
   }
 }
 
 void draw() {
+  /*
   PImage img;
   img = loadImage("pacmanmaze4.png");
   background(img);
-  /*
   fill(0, 0, 0, 10);
   rect(0,0,500,500);
   */
+  background(0);
   for(int i = 0; i < ghostGang.length; i++) {
     ghostGang[i].walk();
     ghostGang[i].show();
