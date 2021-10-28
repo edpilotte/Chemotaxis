@@ -27,10 +27,10 @@ class Ghost {
 }
 
 Ghost[] ghostGang = new Ghost[6];
+PImage img;
 
 void setup() {
   size(704,702);
-  PImage img;
   img = loadImage("pacmanmaze4.png");
   background(img);
   //background(0);
@@ -40,8 +40,7 @@ void setup() {
 }
 
 void draw() {
-  PImage img;
-  img = loadImage("pacmanmaze4.png");
+  //img = loadImage("pacmanmaze4.png");
   background(img);
   fill(0, 0, 0, 10);
   rect(0,0,500,500);
