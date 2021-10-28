@@ -55,7 +55,7 @@ void draw() {
     ghostGang[i].show();
   }
   fill(255,255,0);
-  arc(mouseX, mouseY, 30, 30, QUARTER_PI, PI+QUARTER_PI+QUARTER_PI+QUARTER_PI, PIE);
+  arc(mouseX, mouseY, 30, 30, QUARTER_PI, PI+QUARTER_PI+QUARTER_PI+QUARTER_PI, PI);
   /*
   ellipse(mouseX, mouseY, 30, 30);
   fill(0);
